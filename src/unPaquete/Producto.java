@@ -15,4 +15,12 @@ public class Producto {
     String estado; //disponible o no disponible
     float precio;
     
+    public void mostrar()
+    {
+        System.out.println("Nombre: "+ nombre);
+        System.out.println("Descripcion: "+ descripcion);
+        System.out.println("Estado: "+ estado);
+        System.out.println("Precio: "+ precio);
+    }
+    
 }

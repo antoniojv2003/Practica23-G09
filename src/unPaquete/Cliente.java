@@ -14,6 +14,17 @@ public class Cliente {
     String contraseña;
     String nombre;
     String apellido;
+    
+    //operacion aplicada mediante un metodo para mostrar el objeto
+    
+    public void mostrar()
+    {
+        System.out.println("Correo: "+ correo);
+        System.out.println("Contraseña: "+ contraseña);
+        System.out.println("Nombre: "+ nombre);
+        System.out.println("Apellido: "+ apellido);
+    }
+            
             
     
     
