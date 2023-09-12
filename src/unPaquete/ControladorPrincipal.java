@@ -4,6 +4,8 @@
  */
 package unPaquete;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author estudiante
@@ -11,7 +13,8 @@ package unPaquete;
 public class ControladorPrincipal {
     //esta clase tendrá el método main del proyecto
     public static void main(String[] args) {
-        
+        //definicion de los ArrayList solicitados
+        ArrayList<Cliente>alCientes=new Arraylist<>();
     }
     
 }
