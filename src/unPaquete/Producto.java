@@ -9,5 +9,10 @@ package unPaquete;
  * @author estudiante
  */
 public class Producto {
+    //definicion de los atributos
+    String nombre;
+    String descripcion;
+    String estado; //disponible o no disponible
+    float precio;
     
 }

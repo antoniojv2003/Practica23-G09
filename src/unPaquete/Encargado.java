@@ -9,5 +9,10 @@ package unPaquete;
  * @author estudiante
  */
 public class Encargado {
+    //definicion de los atributos de la clase
+    String correo;
+    String contraseña;
+    String nombre;
+    String apellido;
     
 }
