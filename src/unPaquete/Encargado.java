@@ -9,10 +9,12 @@ package unPaquete;
  * @author estudiante
  */
 public class Encargado {
-    //definicion de los atributos de la clase
-    String correo;
-    String contraseña;
     String nombre;
     String apellido;
     
+    public void mostrar()
+    {
+        System.out.println("Nombre: "+ nombre);
+        System.out.println("Apellido: "+ apellido);
+    }
 }
